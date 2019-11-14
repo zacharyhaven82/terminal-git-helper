@@ -1,0 +1,10 @@
+
+# Enable git auto-completion
+source ~/code/terminal/bin/git-completion.sh
+
+# Enable git bash prompt
+source ~/code/terminal/bin/git-prompt.sh
+# Show git info in prompt
+export GIT_PS1_SHOWDIRTYSTATE=true
+export GIT_PS1_SHOWUNTRACKEDFILES=true
+PS1='\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h\[\033[00m\]:\[\033[33;1m\]\w\[\033[m\]$(__git_ps1 " [\[\e[0;32m\]%s\[\e[0m\]]")\$ '
