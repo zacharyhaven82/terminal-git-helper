@@ -1,5 +1,7 @@
 # terminal-git-helper
 
+
+## How to Install
 - clone repo
 - paste into terminal
   - cd terminal-git-helper
